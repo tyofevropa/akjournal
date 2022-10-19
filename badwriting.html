@@ -1,13 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <title>AKJournal</title>
-	<head>
-    		<img src="akjournal.png" alt="AKJournal" usemap="#akjmap" width="520" height="189">  
-		<map name="akjmap">
-			<area shape="rect" coords="0,0,520,189" alt="Home" href="index.html">
-		</map>
-  	</head>
-  <h1>On Bad Writing</h1>
+<title>AKJournal</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #999;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+footer {
+	background-color: #222;
+    padding: 30px;
+    text-align: center;
+    font-size: 16;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 2390px;
+}
+
+.left, .right {
+  width: 10%;
+}
+
+.middle {
+  width: 80%;
+  text-align:center;
+}
+	
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <head>
+    <img src="akjournal.png" alt="AKJournal" usemap="#akjmap" width="520" height="189" class="responsive">  
+<map name="akjmap">
+	<area shape="rect" coords="0,0,520,189" alt="Home" href="index.html">
+</map>
+</header>
+
+<div class="row">
+  <div class="column left" style="background-color:#222;">
+  </div>
+  <div class="column middle" style="background-color:#999;">
+    <h1>On Bad Writing</h1>
 	<h6>Uploaded: 18 Oct 2022 :: Last Updated: 18 Oct 2022</h6>
   <body>
 	<p>(an excerpt from the upcoming Mind Prism novel)</p>
@@ -25,4 +82,13 @@
     <p>His friend’s response to this series of texts was mostly mild curiosity. He commented only one text message in response to his rant and gave me another point to consider: it is commonly accepted that authors are not always consciously aware of all the thematic elements and other plot points that emerge on for readers. That is to say, scholarship on a given novel will produce insights beyond the original scope of the author. It is conceivable then, that The Idiot’s bad novel one shall be deemed brilliant by a future society.</p>
     <p>So, what then to make of this ? Is there an objective metric by which to judge these novel to resolve this dilemma ? If he were to write an essay, shouldering the ideas of each of the aforementioned criticism styles, would he reach his conclusion, or would he simply add to the body of discourse ? What would it mean for the bad novel if it were to include this very essay on bad writing ?</p>
   </body>
+  </div>
+  <div class="column right" style="background-color:#222;">
+  </div>
+</div>
+
+<footer>
+</footer>
+
+</body>
 </html>
